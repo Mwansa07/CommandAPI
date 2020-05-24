@@ -73,7 +73,6 @@ namespace CommandAPI.Controllers
             {
                 return NotFound();
             }
-
             _context.CommandItems.Remove(commandItem);
             _context.SaveChanges();
 
